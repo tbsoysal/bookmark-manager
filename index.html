@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
-    <link href="style.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
   </head>
   <body>
     <header>
       <h1>Bookmark Manager</h1>
     </header>
     <form>
-      <input type="text" id="url" placeholder="Paste the URL">
+      <input type="text" id="url" placeholder="Paste the URL"><button>X</button></input>
       <select>
         <option selected disabled>Category</option>
         <option value="visitlater">Visit later</option>
@@ -22,7 +22,33 @@
       <input type="text" placeholder="Name">
     </form>
     <main>
-      <ul></ul>
+      <ul>
+        <li>
+          <h2>Education (3)</h2>
+          <div class="bookmarks bookmarks-education">
+            <span>OBS</span>
+            <span>Reverso Dictionary</span>
+            <span>Notion</span>
+          </div>
+        </li>
+        <li>
+          <h2>Self-improvement (2)</h2>
+          <div class="bookmarks bookmarks-selfimprovement">
+            <span>GitHub</span>
+            <span>ChatGPT</span>
+          </div>
+        </li>
+        <li>
+          <h2>Visit later (0)</h2>
+          <div class="bookmarks bookmarks-visitlater">
+          </div>
+        </li>
+        <li>
+          <h2>Favorites (0)</h2>
+          <div class="bookmarks bookmarks-favorites">
+          </div>
+        </li>
+      </ul>
     </main>
   </body>
 </html>

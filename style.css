@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Caslon Text", serif;
+  font-style: normal;
+}
+
+header {
+  background-color: #f2e6dd;
+  padding: 2rem;
+  text-align: center;
+}
+
+form {
+  margin-top: 1.5rem;
+  padding: 1.2rem;
+}
+
+#url {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px 15px 10px 50px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-bottom: 1rem;
+  position: absolute;
+} 
+
+#url button {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+select, input[type="text"] {
+  width: 45%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+input[type="text"] {
+  margin-left: auto;
+}
+
+
