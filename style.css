@@ -22,32 +22,74 @@ form {
   padding: 1.2rem;
 }
 
+.urlbox {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5px;
+  background-color: #F2E6DD;
+  margin-bottom: 1rem;
+}
+
+.urlbox button {
+  width: 50px;
+  border: none;
+}
+
 #url {
   display: block;
   width: 100%;
-  font-size: 1rem;
-  padding: 10px 15px 10px 50px;
+  font-size: 1.2rem;
+  padding: 5px;
   outline: none;
-  border: 1px solid black;
-  border-radius: 50px;
-  margin-bottom: 1rem;
-  position: absolute;
+  border: none;
+  background-color: #F2E6DD;
 } 
 
-#url button {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-
 select, input[type="text"] {
-  width: 45%;
+  background-color: #F2E6DD;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid black;
   padding: 10px;
-  border-radius: 20px;
+  width: 49%;
+  font-size: 1rem;
 }
 
-input[type="text"] {
-  margin-left: auto;
+ul {
+  padding: 1rem;
+  list-style: none;
 }
 
+ul li {
+  margin-bottom: 2rem;
+}
 
+.bookmarks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 1rem;
+}
+
+.bookmarks-education a {
+  background-color: #48DB2B;
+}
+.bookmarks-selfimprovement a {
+  background-color: #6E79F0;
+}
+.bookmarks-education a {
+  background-color: #48DB2B;
+}
+.bookmarks-education a {
+  background-color: #48DB2B;
+}
+
+.bookmarks a {
+  padding: 10px;
+  border-radius: 0.5rem;
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}
