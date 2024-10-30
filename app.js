@@ -41,9 +41,29 @@ form.addEventListener("submit", (e) => {
 
 
 function displayLinks() {
+  favoritesList.innerHTML = "";
   favoritesLinks.forEach(link => {
-    const newElement = `<a href="${link.url}">${link.name}</a>`;
-  })   
+    const bookmarkEl = `<a href="${link.url}">${link.name}</a>`;
+    favoritesList.innerHTML += bookmarkEl;
+  })
+
+  visitlaterList.innerHTML = "";
+  visitlaterLinks.forEach(link => {
+    const bookmarkEl = `<a href="${link.url}">${link.name}</a>`;
+    visitlaterList.innerHTML += bookmarkEl;
+  })
+
+  selfimproveList.innerHTML = "";
+  selfimprovementLinks.forEach(link => {
+    const bookmarkEl = `<a href="${link.url}">${link.name}</a>`;
+    selfimproveList.innerHTML += bookmarkEl;
+  })
+
+  educationList.innerHTML = "";
+  educationLinks.forEach(link => {
+    const bookmarkEl = `<a href="${link.url}">${link.name}</a>`;
+    educationList.innerHTML += bookmarkEl;
+  })
 }
 
 
