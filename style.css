@@ -33,10 +33,24 @@ form {
   box-shadow: 0 4px 4px rgba(0,0,0,0.2);
 }
 
-.urlbox button {
-  width: 50px;
+button {
   border: none;
   background-color: #F2E6DD;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 5px;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+#addBtn {
+  color: green;
+}
+
+#resetBtn {
+  color: red;
 }
 
 #url {
@@ -90,11 +104,11 @@ ul li {
 .bookmarks-selfimprovement a {
   background-color: #6E79F0;
 }
-.bookmarks-education a {
-  background-color: #48DB2B;
+.bookmarks-visitlater a {
+  background-color: #F0F039;
 }
-.bookmarks-education a {
-  background-color: #48DB2B;
+.bookmarks-favorites a {
+  background-color: #F83235;
 }
 
 .bookmarks a {
@@ -102,5 +116,6 @@ ul li {
   border-radius: 0.5rem;
   text-decoration: underline;
   color: black;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 1rem;
 }
