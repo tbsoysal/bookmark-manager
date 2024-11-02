@@ -48,6 +48,8 @@ form.addEventListener("submit", (e) => {
       break;
   }
 
+  nameEl.value = "";
+  urlInput.value = "";
   displayLinks();
   updateLocalStorageData();
 });
