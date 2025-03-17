@@ -29,7 +29,7 @@ A simple Bookmark Manager built with HTML, CSS, and JavaScript. The app allows u
 
 ## Live Link
 
-You can view the live version of the app here: [Bookmark Manager App]([https://tbsoysal.github.io/bookmark](https://tbsoysal.github.io/bookmark-manager/)) *(Replace with your actual live link)*
+You can view the live version of the app here: [https://tbsoysal.github.io/bookmark](https://tbsoysal.github.io/bookmark-manager/)
 
 ## Screenshots
 
